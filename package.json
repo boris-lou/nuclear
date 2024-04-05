@@ -80,7 +80,7 @@
     },
     "files": [
       "dist/"
-    ],
+    ],d
     "extraFiles": [
       {
         "from": "packages/app/resources",
