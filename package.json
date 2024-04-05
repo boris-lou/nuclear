@@ -80,7 +80,7 @@
     },
     "files": [
       "dist/"
-    ],d
+    ],
     "extraFiles": [
       {
         "from": "packages/app/resources",
@@ -154,9 +154,27 @@
     "mac": {
       "category": "public.app-category.music",
       "target": [
-        "zip",
-        "pkg",
-        "dmg"
+        {
+          "target": "zip",
+          "arch": [
+            "x64",
+            "arm64"
+          ]
+        },
+        {
+          "target": "pkg",
+          "arch": [
+            "x64",
+            "arm64"
+          ]
+        },
+        {
+          "target": "dmg",
+          "arch": [
+            "x64",
+            "arm64"
+          ]
+        }
       ],
       "extraFiles": [
         {
